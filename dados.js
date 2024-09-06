@@ -310,5 +310,21 @@ let dados = [
         linkDocumentacao: "https://www.asic-world.com/vhdl/",
         linkMaisInformacoes: "https://en.wikipedia.org/wiki/VHDL",
         linkImagem: "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/638a61921edcd66afc20a239_XrbJ07KiqWOBrxBtkJGoAUdyjwynYp-eC0MPmL1RoQU.png"
+    },
+    {
+        nome: "HTML",
+        descricao: "HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar e estruturar páginas web. É essencial para a construção de sites e é utilizado para definir o conteúdo e a estrutura das páginas na web.",
+        nivelDificuldade: "Fácil",
+        linkDocumentacao: "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+        linkMaisInformacoes: "https://en.wikipedia.org/wiki/HTML",
+        linkImagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
+    },
+    {
+        nome: "CSS",
+        descricao: "CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de documentos HTML. Ela permite a personalização da aparência das páginas web, incluindo layouts, cores e fontes.",
+        nivelDificuldade: "Médio",
+        linkDocumentacao: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
+        linkMaisInformacoes: "https://en.wikipedia.org/wiki/CSS",
+        linkImagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png"
     }
 ];
