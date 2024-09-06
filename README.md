@@ -1,4 +1,4 @@
-## Buscador de Linguagens - Imersão Alura**
+## Buscador de Linguagens - Imersão Alura com Google Gemini**
 
 ### **TL;DR:**
 
