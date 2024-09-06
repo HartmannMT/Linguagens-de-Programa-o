@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de Linguagens</title>
+</head>
+<body>
+    <header>
+        <h1>Buscador de Linguagens de Programação</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" id="barra-pesquisa" placeholder="Pesquise aqui...">
+            <select id="filtro-dificuldade" onchange="pesquisar()">
+                <option value="">Filtrar por dificuldade</option>
+                <option value="Fácil">Fácil</option>
+                <option value="Médio">Médio</option>
+                <option value="Difícil">Difícil</option>
+            </select>
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
+    </main>
+    <footer class="hidden">
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+    <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <img class="modal-conteudo" id="modal-imagem">
+    </div>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
